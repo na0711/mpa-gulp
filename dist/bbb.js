@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=!0;var Hello_1=require("../modules/Hello"),hello=new Hello_1.default("こんにちは！bbbだよ");hello.say();

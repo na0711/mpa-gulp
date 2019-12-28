@@ -1,0 +1,1 @@
+"use strict";exports.__esModule=!0;var Hello_1=require("../modules/Hello");require("jquery");var hello=new Hello_1.default("おはよう！aaaです");hello.say();
