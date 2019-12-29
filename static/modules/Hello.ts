@@ -4,10 +4,9 @@ class Hello  {
   constructor(msg:string){
    this.msg = msg
   }
-  say = () => {
-    console.log(this.msg);
+  say = ():void => {
+    console.log(this.msg + "!");
   }
 }
-
 
 export default Hello;
