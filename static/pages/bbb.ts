@@ -6,10 +6,7 @@ const hello = new Hello("こっちは！bbbです");
 hello.say();
 
 $(()=>{
-    $('a').text("jQueryで文字を書き換えてます");
-
-
-    
+    $('a').text("jQueryで文字を書き換えてます"); 
 });
 
 

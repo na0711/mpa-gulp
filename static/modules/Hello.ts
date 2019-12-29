@@ -5,7 +5,7 @@ class Hello  {
    this.msg = msg
   }
   say = ():void => {
-    console.log(this.msg + "!");
+    console.log(this.msg + "!？");
   }
 }
 

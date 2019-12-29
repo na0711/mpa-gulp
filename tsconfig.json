@@ -14,6 +14,6 @@
   "exclude": [
     "node_modules",
     "*.spec.ts",
-    "static/types/**/*.d.ts"
+    "static/@types/**/*.d.ts"
   ]
 }

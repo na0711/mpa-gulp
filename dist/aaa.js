@@ -105,7 +105,7 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Hello = /** @class */ (function () {\n    function Hello(msg) {\n        var _this = this;\n        this.say = function () {\n            console.log(_this.msg + \"!\");\n        };\n        this.msg = msg;\n    }\n    return Hello;\n}());\nexports.default = Hello;\n\n\n//# sourceURL=webpack:///./static/modules/Hello.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Hello = /** @class */ (function () {\n    function Hello(msg) {\n        var _this = this;\n        this.say = function () {\n            console.log(_this.msg + \"!？\");\n        };\n        this.msg = msg;\n    }\n    return Hello;\n}());\nexports.default = Hello;\n\n\n//# sourceURL=webpack:///./static/modules/Hello.ts?");
 
 /***/ }),
 

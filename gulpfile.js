@@ -50,11 +50,12 @@ gulp.task('compile_ts', (cb)=>{
         filename:fileNames[i],
       }
     }
-    return gulp.src(file).pipe(webpackStream(webpackConfig, webpack, cb)).pipe(gulp.dest(jsDir.dist));
+    gulp.src(file).pipe(webpackStream(webpackConfig, webpack, cb)).pipe(gulp.dest(jsDir.dist));
   });
   cb();
 });
 
+// モジュールファイルを監視してcompile タスクを実行
 gulp.task('watch_module_ts', () => {
   return gulp.watch(jsDir.module, gulp.parallel('compile_ts'));
 })
