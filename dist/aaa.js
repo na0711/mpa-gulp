@@ -117,7 +117,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar He
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Hello_1 = __webpack_require__(/*! ../modules/Hello */ \"./static/modules/Hello.ts\");\nvar $ = __webpack_require__(/*! jQuery */ \"./node_modules/jQuery/dist/jquery.js\");\n// 別ファイルで定義したmoduleが使えます＝機能は個別のファイルで管理して、各ページではnew Class して\nvar hello = new Hello_1.default(\"おはよう！aaaです\");\nhello.say();\n$(function () {\n    $('a').text(\"jQueryで文字を書き換えてます\");\n});\n\n\n//# sourceURL=webpack:///./static/pages/aaa.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Hello_1 = __webpack_require__(/*! ../modules/Hello */ \"./static/modules/Hello.ts\");\nvar $ = __webpack_require__(/*! jQuery */ \"./node_modules/jQuery/dist/jquery.js\");\nvar hello = new Hello_1.default(\"おはよう！aaaです\");\nhello.say();\n$(function () {\n    $('a').text(\"jQueryで文字を書き換えてます。\");\n});\n\n\n//# sourceURL=webpack:///./static/pages/aaa.ts?");
 
 /***/ })
 

@@ -1,14 +1,17 @@
 import Hello from '../modules/Hello';
-import $ = require('jQuery');
+const u = require('../modules/Unbrella');
 
-// 別ファイルで定義したmoduleが使えます＝機能は個別のファイルで管理して、各ページではnew Class して
 const hello = new Hello("こっちは！bbbです");
 hello.say();
 
-$(()=>{
-    $('a').text("jQueryで文字を書き換えてます"); 
+u('a').text("Unbrellaで文字を書き換えてます。"); 
+
+u('a').each((elm)=>{
+    u(elm).attr("rel","aa");
 });
 
+// Unbrellaにはないeqを実装
+u('a').eq(0).addClass("is-active");
 
 
 
