@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+  "sourceMap": false,
+  "declaration": true,
+  "outDir": "static/@types",
+  "typeRoots": ["static/@types/modules","static/@types/pages", "node_modules/@types"]
+  },
+  "include": [
+    "static/**/*.ts","!static/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "*.spec.ts",
+    "static/@types/**/*.d.ts"
+  ]
+}
